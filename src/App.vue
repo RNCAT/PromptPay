@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="img-fluid" src="./assets/cat.webp" />
+    <img class="img-fluid" src="./assets/cat.jpg" />
     <PromptPay />
   </div>
 </template>
@@ -11,14 +11,13 @@ import PromptPay from './components/PromptPay.vue'
 export default {
   name: 'App',
   components: {
-    PromptPay
-  }
+    PromptPay,
+  },
 }
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
 
 #app {
   font-family: 'Kanit', sans-serif;
